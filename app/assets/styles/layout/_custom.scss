@@ -1,0 +1,62 @@
+/*********************************************************************
+*
+*  layout/custom
+*  Customized CSS
+*
+*********************************************************************/
+body, html { min-width:769px }
+.school-header {
+  background:#2b1f17 url(/assets/images/topobg.jpg) center center no-repeat !important;
+  height:370px;
+}
+.school-header h1 { font:22px arial;color:#fff;text-transform:uppercase;position:absolute;margin-top:100px}
+.school-header h1 b { color:#ffeead}
+.school-header h1 span { border:3px solid #fff;float:left;background:#fff;height:1px;overflow:hidden;width:50px;position:absolute;margin-top:40px;opacity:0.2}
+.school-header #header-menu {
+  background:#2b1f17;
+  height:53px;
+  width:100%;
+}
+.school-header .navbarCustom {
+  background:#2b1f17;
+  border:0px;
+}
+.school-header .dropdown-toggle.pointer b {
+  text-transform: capitalize;
+}
+.navbarCustom, .navbarCustom li { list-style:none; float:left}
+.school-header .navbarCustom {  width:99%; padding:5px 0px}
+.school-header .navbarCustom li a { color:#ffeead !important;text-transform:uppercase;padding:15px;float:left}
+.school-header .navbarCustom li a:hover { color:#fbcd1b !important;text-decoration:underline}
+.school-header .liboasvindas { color:#fff;padding:15px 0px;float:right;}
+.school-header .lilogout {float:right;}
+
+.school-header .headerBgH { 
+width:100%;max-width:653px;height:242px;margin:0px auto;
+background: url(/assets/images/topoh.png) right bottom no-repeat !important;
+}
+.school-header .headerBgH img { margin:50px -160px 0px 0px;float:right; }
+.headerDisciplina { position:absolute;color:#fff; font: 18px arial;margin-top:165px;}
+.headerDisciplina b { color: #ffea00;font: bold 26px arial}
+
+.HeaderDown { background: #aa9d8a;width:100%;height:58px;float:left;border-bottom:5px solid #dccbb4 }
+.HeaderDown ul { width:100%;max-width:980px;margin:0px auto}
+.HeaderDown li { float:left;list-style:none}
+.HeaderDown  a { color:#4f3f32;text-transform:uppercase;padding:18px 10px;display:block;font-size:0.9em}
+
+
+@media only screen and (max-width : 991px) {
+.school-header .headerBgH { background:none !important; max-width:750px !important }
+.school-header .headerBgH img { margin-right:0px; }
+}
+@media only screen and (max-width : 870px) {
+.HeaderDown a { padding:18px 8px;font-size:0.8em }
+}
+
+
+
+
+/* Internas */
+.dashboard-panel .course .course-image { margin-bottom:0px;}
+.dashboard-panel .course .course-label { background:#ffe56b;padding:10px 15px;}
+.dashboard-panel .course .course-label span.ng-binding{ font:bold 18px arial;}
